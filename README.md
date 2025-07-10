@@ -35,18 +35,18 @@ source .venv/bin/activate  # On Windows: .venv\Scripts\activate
 
 
 
-#🔐 Setup .env File
+# 🔐 Setup .env File
 Create a .env file in the root directory and add your Gemini API Key:
 
 GEMINI_API_KEY=your_gemini_api_key_here
 🔑 You can get a free Gemini API key from:
 https://aistudio.google.com/app/apikey
 
-#🧠 Run the Chatbot
+# 🧠 Run the Chatbot
 chainlit run main.py
 It will open a browser window where you can chat with your Crypto Assistant.
 
-#💬 Example Prompts
+# 💬 Example Prompts
 What is the price of BTCUSDT?
 
 Give me the ETHUSDT price.
