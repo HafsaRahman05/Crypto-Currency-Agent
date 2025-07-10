@@ -24,15 +24,10 @@ cd crypto-agent
 ````
 
 
-#2. Create virtual environment
+# 2. Create virtual environment
 
 python -m venv .venv
 source .venv/bin/activate  # On Windows: .venv\Scripts\activate
-
-
-#3. Install dependencies
-
-
 
 
 # 🔐 Setup .env File
@@ -48,7 +43,5 @@ It will open a browser window where you can chat with your Crypto Assistant.
 
 # 💬 Example Prompts
 What is the price of BTCUSDT?
-
 Give me the ETHUSDT price.
-
 Fetch price of SOLUSDT
